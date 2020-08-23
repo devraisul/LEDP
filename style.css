@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/abc/img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+.login{
+    background: rgba(0,0,0,.2);
+    height: 60rem;
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 3rem;
+    text-align: center;
+}
+.login h2{
+    color: #fff;
+    font-size: 5rem;
+    margin: 3rem;
+
+}
+
+.login .inp{
+    margin: 2rem 0 0 0;
+    height: 4rem;
+    width: 80%;
+    border: none;
+    border-radius: 30rem;
+    padding-left: 2rem;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+}
+.btn{
+    margin: 3rem 0 0 0;
+    height: 4rem;
+    width: 80%;
+    border: none;
+    border-radius: 30rem;
+    background-color: #ff5500;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+}
+.login p{
+    font-size: 1.5rem;
+    color: #000;
+}
+.login p a{
+    font-weight: 800;
+    text-decoration: none;
+    color: #ff5500;
+}
